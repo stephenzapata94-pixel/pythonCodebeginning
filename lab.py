@@ -20,4 +20,4 @@ for s in scores:
     if s > highest:
         highest = s
 
-print("Your highest score was:", str(highest))
+print("Your highest score was:", int(highest))
