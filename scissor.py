@@ -9,11 +9,7 @@ print("Computer choice is:", computer)
 
 if player == computer:
     print("It's a DRAW")
-elif player == Rock and computer == Scissor:
-    print("Player wins")
-elif player == Paper and computer == Rock:
-    print("Player wins")
-elif player == Scissor and computer == Paper:
+elif player == Rock and computer == Scissor or player == Scissor and computer == Paper or player == Paper and computer == Rock:
     print("Player wins")
 else:
     print("Computer wins")
